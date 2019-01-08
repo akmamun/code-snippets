@@ -6,8 +6,9 @@ MAIL_USERNAME=<username>
 MAIL_PASSWORD=<password>
 MAIL_ENCRYPTION=null
 
-#2. AuthenticatesUsers.php change this function
 
+#2. AuthenticatesUsers.php change this function
+<?php
  protected function credentials(Request $request)
     {
         return array_merge($request->only($this->username(), 'password'), ['verified' => 1]);

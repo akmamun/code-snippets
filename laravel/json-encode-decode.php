@@ -1,4 +1,6 @@
-    //In Controller
+<?php
+   
+ //In Controller
         $other_info = json_encode([
             'field_name'        => $request->field_name,
         ]);

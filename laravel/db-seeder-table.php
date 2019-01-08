@@ -1,3 +1,5 @@
+<?php
+
 #make seeder
 DB::table('table_name')->truncate();
 
