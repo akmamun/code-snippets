@@ -1,9 +1,11 @@
-## JavaScript, Python (Flask), Php (Laravel) Code Snippets
+## JavaScript, React JS, Python (Flask), Php (Laravel) Code Snippets
 
 ## JavaScript Code Snippets 
 - [JavaScript Form Validation](js/form-validation.js) 
 - [Select Single Checkbox](js/single-checkbox-selection.js) 
-
+## React JS Code Snippets 
+- [Array Interval Delay and Hide Previous Element](react-js/array-plus-delay.js) 
+- [Manual Delay](react-js/delay.js) 
 ## Python Code Snippets 
 - [Create a Host](python/image-cropping.py)
 - [Multiple Image Upload](python/multiple-image-upload.py)
