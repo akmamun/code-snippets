@@ -23,3 +23,8 @@ foreach ($route_partials as $partial) {
 
     require_once $file;
 }
+
+
+// In testRoute.php Adding Route, Write what you need
+Route::get('test', 'TestController@index')->name('test.index');
+Route::get('test/create', 'TestController@create')->name('test.create');
