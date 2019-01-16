@@ -9,6 +9,7 @@
 ## Python Code Snippets 
 - [Create a Host](python/image-cropping.py)
 - [Multiple Image Upload](python/multiple-image-upload.py)
+- [File Import From Another Directory](python/file-from-another-directory.py)
 
 ## Php Laravel Code Snippets
 - [Date Time Difference](laravel/date-time-difference.php)
