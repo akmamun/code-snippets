@@ -1,4 +1,4 @@
-#  multiple image upload in mongo db
+
 import os
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
@@ -12,5 +12,4 @@ def image_upload():
             filename = secure_filename(upload.filename)
             destination = "/".join([target, filename])
             upload.save(destination)
-            db_table.insert({'field_name': filename})   # insert into database mongo db
         return 'Image Upload Successfully', 201
