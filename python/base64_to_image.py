@@ -1,3 +1,4 @@
+import os
 SAVE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def base64_to_image(filename):
@@ -10,6 +11,7 @@ def base64_to_image(filename):
     with open(destination, 'wb') as f:
         f.write(data)
     return data
+# example 
 # @app.route('/frame/upload/', methods=['GET', 'POST'])
 # def upload_image():
 #     if request.method == "POST":
