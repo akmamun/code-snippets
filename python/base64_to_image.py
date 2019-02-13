@@ -9,7 +9,7 @@ def base64_to_image(filename):
     destination = "/".join([path, filename])
     with open(destination, 'wb') as f:
         f.write(data)
-    return "success", 201
+    return data
 # @app.route('/frame/upload/', methods=['GET', 'POST'])
 # def upload_image():
 #     if request.method == "POST":
