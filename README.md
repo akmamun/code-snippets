@@ -7,6 +7,7 @@
 - [Array Interval Delay and Hide Previous Element](react-js/array-plus-delay.js) 
 - [Manual Delay](react-js/delay.js) 
 - [React Routes](react-js/routes.js) 
+- [React Web Camera Access](react-js/webcam.js) 
 ## Python Code Snippets 
 - [Create a Host](python/image-cropping.py)
 - [Multiple Image Upload](python/multiple-image-upload.py)
