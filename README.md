@@ -9,9 +9,12 @@
 - [React Routes](react-js/routes.js) 
 - [React Web Camera Access](react-js/webcam.js) 
 ## Python Code Snippets 
-- [Create a Host](python/image-cropping.py)
+- [Base 64 to Image Convert](python/base64_to_image.py)
+- [Image Cropping](python/image-cropping.py)
 - [Multiple Image Upload](python/multiple-image-upload.py)
 - [File Import From Another Directory](python/file-from-another-directory.py)
+
+
 
 ## Php Laravel Code Snippets
 - [Date Time Difference](laravel/date-time-difference.php)
