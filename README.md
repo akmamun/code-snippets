@@ -27,4 +27,4 @@
 - [Create a Host](../../../create-a-host)
 
 ## Other
-- [Install Protobuf 3 on Ubuntu] (https://gist.github.com/mrxmamun/c3afc8e9318135d5f79177ff528655a4)
+- [Install Protobuf 3 on Ubuntu](https://gist.github.com/mrxmamun/c3afc8e9318135d5f79177ff528655a4)
