@@ -7,7 +7,7 @@
 - [Array Interval Delay and Hide Previous Element](react-js/array-plus-delay.js) 
 - [Manual Delay](react-js/delay.js) 
 - [React Routes](react-js/routes.js) 
-- [React Web Camera Access](react-js/webcam.js) 
+- [React Web Camera Streaming](react-js/webcam.js) 
 ## Python Code Snippets 
 - [Base 64 to Image Convert](python/base64_to_image.py)
 - [Image Cropping](python/image-cropping.py)
@@ -26,4 +26,5 @@
 - [Partial Route](laravel/partial-route.php) 
 - [Create a Host](../../../create-a-host)
 
-
+## Other
+- [Install Protobuf 3 on Ubuntu] (https://gist.github.com/mrxmamun/c3afc8e9318135d5f79177ff528655a4)
