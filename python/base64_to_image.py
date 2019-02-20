@@ -1,4 +1,6 @@
 import os
+import base64
+
 SAVE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def base64_to_image(filename):

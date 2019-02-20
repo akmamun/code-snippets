@@ -9,13 +9,10 @@
 - [React Routes](react-js/routes.js) 
 - [React Web Camera Streaming](react-js/webcam.js) 
 ## Python Code Snippets 
-- [Base 64 to Image Convert](python/base64_to_image.py)
 - [Image Cropping](python/image-cropping.py)
+- [Base 64 to Image Convert and Save](python/base64_to_image.py)
+- [Base 64 to Numpy Array](python/base64_to_numpy_array.py)
 - [Multiple Image Upload](python/multiple-image-upload.py)
-- [File Import From Another Directory](python/file-from-another-directory.py)
-
-
-
 ## Php Laravel Code Snippets
 - [Date Time Difference](laravel/date-time-difference.php)
 - [Database Insertion Without Model](laravel/db-insert-without-model.php)
