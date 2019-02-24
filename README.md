@@ -13,6 +13,7 @@
 - [Base 64 to Image Convert and Save](python/base64_to_image.py)
 - [Base 64 to Numpy Array](python/base64_to_numpy_array.py)
 - [Multiple Image Upload](python/multiple-image-upload.py)
+- [Another Directory Folder Add](python/another_directory_add.py)
 ## Php Laravel Code Snippets
 - [Date Time Difference](laravel/date-time-difference.php)
 - [Database Insertion Without Model](laravel/db-insert-without-model.php)
