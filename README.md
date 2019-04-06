@@ -7,6 +7,7 @@
 - [API Routes ](react-js/Api.js)
 - [API Integration Example Component](react-js/ApiIntegration.js)
 - [Basic API Integration with Fetch and Axios](react-js/fetch-axios.js)
+- [Navbar Component with State Handle](react-js/Navbar.js)
 - [Array Interval Delay and Hide Previous Element](react-js/array-plus-delay.js) 
 - [Manual Delay](react-js/delay.js) 
 - [React Routes](react-js/routes.js) 
