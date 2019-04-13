@@ -3,25 +3,25 @@
 const axios = require('axios')
 
 const baseUrl =  "http://127.0.0.1:5000/";
-const todo = "todos";
+const todos = baseUrl + "todos";
 
 export default {
     todosFetch() {
         return {
-            getOne: ({ id }) => fetch(`${id}`),
-            getAll: () => fetch(baseUrl + todo),
-            create: (toCreate) => fetch(toCreate),
-            update: (toUpdate) => fetch(toUpdate),
+            getOne: ({ id }) => fetch(todos + `/${id}`), //id_url 
+            getAll: () => fetch(todos),  //url
+            create: (data) => fetch(todos, data),  //url, data
+            update: ({ id }, data) => fetch(todos + `/${id}`, data), //url, data
             delete: ({ id }) => fetch(`${id}`)
         }
 
     },
     todosAxios() {
         return {
-            getOne: ({ id }) => axios.get(`${id}`),
-            getAll: () => axios.get(baseUrl + todo),
-            create: (toCreate) => axios.put(toCreate),
-            update: (toUpdate) => axios.put(toUpdate),
+            getOne: ({id}) => axios.get(todos + `/${id}`), //id_url 
+            getAll: () => axios.get(todos),
+            create: (data) => axios.post(todos, data), //url, data
+            update: ({ id }, data) => axios.put(todos + `/${id}`, data), //url, data
             delete: ({ id }) => axios.delete(`${id}`)
         }
     }
