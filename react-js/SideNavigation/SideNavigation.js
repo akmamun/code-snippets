@@ -1,9 +1,9 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
-import cctv from "../../static/images/cctv-icon.png";
-import menu from "../../static/images/Menu.png";
-import setting from "../../static/images/settings.png";
-import user from "../../static/images/user.png";
+// import cctv from "../../static/images/cctv-icon.png";
+// import menu from "../../static/images/Menu.png";
+// import setting from "../../static/images/settings.png";
+// import user from "../../static/images/user.png";
 import "./SideNavigation.css";
 
 class SideNavigation extends Component {
@@ -31,7 +31,7 @@ class SideNavigation extends Component {
             <div>
                 <nav id="sidebar">
                     <div className="sidebar-header">
-                        <img src={menu} alt=""/>
+//                         <img src={menu} alt=""/>
                     </div>
 
                     <ul className="list-unstyled sidebar-ul">
@@ -40,7 +40,7 @@ class SideNavigation extends Component {
                                data-toggle="dropdown"
                                aria-haspopup="true"
                                aria-expanded="false">
-                                <img src={cctv} alt=""/>
+//                                 <img src={cctv} alt=""/>
                             </div>
                             <div className={dropdownMenuShow}
                                  aria-labelledby="navbarDropdown">
@@ -62,12 +62,12 @@ class SideNavigation extends Component {
                                 </Link>
                             </div>
                         </li>
-                        <li>
-                        <img src={setting} alt=""/>
-                        </li>
-                        <li>
-                        <img src={user} alt=""/>
-                        </li>
+//                         <li>
+//                         <img src={setting} alt=""/>
+//                         </li>
+//                         <li>
+//                         <img src={user} alt=""/>
+//                         </li>
                     </ul>
                 </nav>
             </div>
