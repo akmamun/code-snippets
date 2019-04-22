@@ -18,6 +18,7 @@
 - [React Web Camera Streaming](react-js/webcam.js) 
 
 ## Python 
+- [Dockerize Flask App](python/Dockerfile)
 - [Cython Compile File Generator](python/compile.py)
 - [Camera Live Streaming with Flask and Open-CV](python/camera.py)
 - [Image Cropping](python/image-cropping.py)
