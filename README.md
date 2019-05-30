@@ -3,9 +3,10 @@
 ## JavaScript 
 - [JavaScript Form Validation](js/form-validation.js) 
 - [Select Single Checkbox](js/single-checkbox-selection.js) 
+- [Date Time](js/datetime.js) 
 ## React JS 
-
-- [API Routes ](react-js/Api.js)
+- [Exportable API Endpoint](react-js/Api.js)
+- [Example API Routes ](react-js/ExampleApi.js)
 - [API Integration Add Component](react-js/ApiAdd.js)
 - [API Integration Data List Component](react-js/APIDataList.js)
 - [API Integration Edit Component](react-js/ApiEdit.js)
@@ -16,6 +17,8 @@
 - [Array Interval Delay and Hide Previous Element](react-js/array-plus-delay.js) 
 - [Manual Delay](react-js/delay.js) 
 - [React Web Camera Streaming](react-js/webcam.js) 
+- [Exportable Date Time](react-js/dateTime.js) 
+- [Not Found Page](react-js/NotFound.js) 
 
 ## Python 
 - [Dockerize Flask App](python/Dockerfile)
