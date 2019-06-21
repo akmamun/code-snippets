@@ -1,0 +1,28 @@
+.team img {
+    width: 158px;
+    border-radius: 50%;
+    height: 155px;
+}
+.team {
+    text-align: center;
+}
+.team h5 {
+   margin-top: 15px;
+}
+.team .title {
+    font-size: 13px;
+    color: #006cff;
+    margin-left: 10px;
+}
+.team p {
+    min-height: 170px;
+}
+.team-offset{
+    margin-left: 9.333333% !important;
+}
+@media only screen and (max-width: 768px) /*medium device*/ {
+    .team p {
+        min-height:0 !important;
+    }
+}
+
