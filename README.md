@@ -14,6 +14,7 @@
 - [Basic API Integration with Fetch and Axios](react-js/fetch-axios.js)
 - [Navbar Component with State Handle](react-js/Navbar.js)
 - [SideNavigation Component with State Handle](react-js/SideNavigation)
+- [Team Component](react-js/team/Team.js)
 - [Array Interval Delay and Hide Previous Element](react-js/array-plus-delay.js) 
 - [Manual Delay](react-js/delay.js) 
 - [React Web Camera Streaming](react-js/webcam.js) 
