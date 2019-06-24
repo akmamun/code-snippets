@@ -1,5 +1,7 @@
 ## JavaScript, React JS, Python, Flask, Php (Laravel) Code Snippets
 
+## Hacks
+- [Frontend](react-js/Frontend.md) 
 ## JavaScript 
 - [JavaScript Form Validation](js/form-validation.js) 
 - [Select Single Checkbox](js/single-checkbox-selection.js) 
