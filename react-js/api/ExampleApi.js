@@ -6,7 +6,7 @@ const baseUrl =  "http://127.0.0.1:5000/";
 const todos = baseUrl + "todos";
 
 export default {
-    todosFetch() {
+    endpointFetch() {
         return {
             getOne: ({ id }) => fetch(todos + `/${id}`), //id_url 
             getAll: () => fetch(todos),  //url
@@ -16,7 +16,7 @@ export default {
         }
 
     },
-    todosAxios() {
+    endpointFetch() {
        return {
             getOne: ({id}) => axios.get(todos + `/${id}`), //id_url 
             getAll: () => axios.get(todos),

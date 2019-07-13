@@ -7,10 +7,11 @@
 - [Select Single Checkbox](js/single-checkbox-selection.js) 
 - [Date Time](js/datetime.js) 
 ## React JS 
-- [Exportable API Endpoint](react-js/api/Api.js)
-- [Example API Routes ](react-js/api/ExampleApi.js)
+- [Exportable API Endpoint](react-js/api/ApiHelper.js)
+- [Example API Helper Routes ](react-js/api/ExampleApi.js)
 - [API Integration Add Component](react-js/api/ApiAdd.js)
 - [API Integration Data List Component](react-js/api/APIDataList.js)
+- [Async API Integration Data List Component](react-js/api/APIAsyncDataList.js)
 - [API Integration Edit Component](react-js/api/ApiEdit.js)
 - [API Integration Delete Component](react-js/api/ApiTodo.js)
 - [Basic API Integration with Fetch and Axios](react-js/fetch-axios.js)
