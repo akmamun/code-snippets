@@ -12,13 +12,13 @@ class TodoList extends Component {
     }
 
     async componentDidMount() {
-        await this.getTimesheetData()
+        await this.getData()
      }
  
      getData = async () => {
          const response = await api.endpoint("api route").getAll();
          this.setState({todos: response.data});
-         setTimeout(this.getData, 1000);  /*auto request to end point every second*/
+         setTimeout(this.getData, 1000);  /*auto request to endpoint every second to fetch data*/
      };
  
 
