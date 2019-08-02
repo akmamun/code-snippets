@@ -1,5 +1,6 @@
+//npm install axios
 import React, { Component } from 'react';
-import api from '../../api'; 
+import { axios } from 'axios';
 
 class AddTodo extends Component {
   constructor(props) {
@@ -23,12 +24,13 @@ class AddTodo extends Component {
     const {title, body} = this.state;
     // define state variable for use in return
     //and store in state value
-     api.todos().create({ title: title, body: body})
+    const data = { title: title, body: body};
+     axios.post("your api endpoint route" , data) //post your data
       .then(this.setState({   //clear inputs after submit 
         title: "",
         body: ""
       }))
-       .then(response => this.props.history.push('/')); 
+       .then(response => this.props.history.push('/')); //redirect to route
   }
   
   render() {

@@ -1,8 +1,7 @@
+//npm install axios
 import React, { Component } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {Link} from 'react-router-dom';
+import { axios } from 'axios';
 
-import api from "../../api";
 
 class APITodo extends Component {
   constructor(props) {
@@ -13,13 +12,14 @@ class APITodo extends Component {
   }
 
   componentDidMount() {
-    const todoId = this.props.match.params;
-    api.todos().getOne(todoId)
+    const id = "your id like 1245";
+    axios.get("your api endpoint route", id)
       .then(response => this.setState({ todo: response.data }));
   }
   onDelete = () => {
-    const todoId = this.props.match.params;
-    api.todos().delete(todoId)
+    // const todoId = this.props.match.params;
+       const todoId = "your deleted id like 123";
+    axios.delete("your api endpoint route", id) //id for specific data delete
       .then(response => this.props.history.push('/'));
   }
 
@@ -31,10 +31,7 @@ class APITodo extends Component {
         <div className="row mt-5">
           <div className="col-lg-8 offset-lg-2">
             <h4> {todo.title} 
-             <Link to={`/todo/edit/${todo._id}`}> 
-              <FontAwesomeIcon icon="edit" className="ml-5" />
-               </Link>
-                <FontAwesomeIcon icon="trash" onClick={this.onDelete} className="float-right mr-5" />
+  
             </h4> 
               <p> {todo.body}</p>
           </div>

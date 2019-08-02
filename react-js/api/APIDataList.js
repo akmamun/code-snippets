@@ -1,7 +1,5 @@
+//npm install axios
 import React, { Component } from 'react';
-import { Link} from 'react-router-dom';
-
-import api  from '../../api';
  
 class TodoList extends Component {
     constructor(props) {
@@ -12,7 +10,7 @@ class TodoList extends Component {
     }
 
     componentDidMount() {
-        api.todos().getAll()
+        axios.get("api endpoint route")
         .then(response => this.setState({ todos: response.data }))
     }
 
@@ -26,9 +24,7 @@ class TodoList extends Component {
                 <h2>Todo List</h2>
                 {todos.map((todo, index) => (
                   <div key={index}>
-                    <h4>
-                      <Link to={`/todo/${todo._id}`}>{todo.title}</Link> 
-                    </h4>
+              
                     <p> {todo.body}</p>
                   </div>
                 ))}

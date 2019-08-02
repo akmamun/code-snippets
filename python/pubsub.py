@@ -1,3 +1,4 @@
+# pip install google-cloud-pubsub
 import os, json
 from google.cloud import pubsub_v1
 from google.auth import jwt

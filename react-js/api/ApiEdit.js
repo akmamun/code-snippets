@@ -1,6 +1,6 @@
+//npm install axios
 import React, { Component } from "react";
-
-import api from "../../api";
+import { axios } from 'axios';
 
 class APIEdit extends Component {
     constructor(props) {
@@ -12,8 +12,8 @@ class APIEdit extends Component {
     }
   
     componentDidMount() {
-        const todoId = this.props.match.params;
-        api.todos().getOne(todoId)
+        const id = "your id like 1245";
+        axios.get("your api endpoint route", id)
             .then(response => this.setState({
                 title: response.data.title,
                 body: response.data.body
@@ -24,10 +24,10 @@ class APIEdit extends Component {
     }
     onSubmit = (e) => {
         e.preventDefault() //prevent load
-        const todoId = this.props.match.params;
         // get our form data out of state
         const { title, body } = this.state;   // define state variable for use in return and store in state value
-        api.todos().update(todoId, { title: title, body: body })
+        data = { title: title, body: body }
+        axios.put("your api endpoint route", data) // url and update data pass through put axios method
             .then(response => this.props.history.push('/'));
     }
           

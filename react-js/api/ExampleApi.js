@@ -1,12 +1,11 @@
-// api.js file contains this code
-// note: npm install axios
+// note: if axios install it by npm install axios
 const axios = require('axios')
 
 const baseUrl =  "http://127.0.0.1:5000/";
 const todos = baseUrl + "todos";
 
 export default {
-    endpointFetch() {
+    endpointLoadWithFetch() {
         return {
             getOne: ({ id }) => fetch(todos + `/${id}`), //id_url 
             getAll: () => fetch(todos),  //url
@@ -16,7 +15,7 @@ export default {
         }
 
     },
-    endpointFetch() {
+    endpointLoadWithAxios() {
        return {
             getOne: ({id}) => axios.get(todos + `/${id}`), //id_url 
             getAll: () => axios.get(todos),
@@ -26,13 +25,12 @@ export default {
         }
     }
 }
-//[Example Component](react-js/ApiIntegration.js)
 // componentDidMount(){
-// api.todosFetch().getAll()
+// endpointLoadWithAxios().getAll()
 //     .then(response => response.json()  //fetch method need to convert json
 //         .then(data => this.setState({ todos: data })));  //define converted data state variable
 //}
 // componentDidMount(){
-    // api.todosAxios().getAll()
+    // endpointLoadWithAxios().getAll()
      //   .then(response => this.setState({ axiosTodos: response.data }))
 //}

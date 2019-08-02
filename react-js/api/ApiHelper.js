@@ -1,3 +1,4 @@
+//npm install axios
 import axios from "axios";  /* npm install axios*/
 /* description: this function for callback api endpoint
                  contains GET,POST,PUT, DELETE requests via axios package
@@ -13,7 +14,7 @@ import axios from "axios";  /* npm install axios*/
 
 export default {
     endpoint(url) {
-        url = "base url"+ url; //concat base url and url with base api endpoint
+        url = "base api endpoint url"+ url; //concat base url and url with base api endpoint
         return {
             getOne: (id) => axios.get(url + `/${id}`), //id_url
             getAll: () => axios.get(url),
