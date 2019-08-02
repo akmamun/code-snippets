@@ -22,6 +22,7 @@
 - [Manual Delay](react-js/delay.js) 
 - [React Web Camera Streaming](react-js/webcam.js) 
 - [Exportable Date Time](react-js/dateTime.js) 
+- [Pagination and Usage](react-js/Pagination.js) 
 - [Not Found Page](react-js/NotFound.js) 
 
 ## Python 
