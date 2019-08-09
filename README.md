@@ -24,6 +24,7 @@
 - [SideNavigation Component with State Handle](react-js/SideNavigation)
 - [Team Component](react-js/team/Team.js)
 - [Array Interval Delay and Hide Previous Element](react-js/array-plus-delay.js) 
+- [React Select Option](react-js/SelectOption.js)
 - [Not Found Page](react-js/NotFound.js) 
 
 ## Python 
