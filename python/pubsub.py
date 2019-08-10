@@ -1,8 +1,6 @@
 # pip install google-cloud-pubsub
 import os, json
-from google.cloud import pubsub_v1
-from google.auth import jwt
-
+from google.cloud import pubsub_v1 
  
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = os.getcwd() + "/PubSubService.json" #import pubsub serveice credential json file
 
