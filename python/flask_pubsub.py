@@ -1,3 +1,4 @@
+# pip install flask_socketio google-cloud-pubsub
 import os, time
 from flask import Flask
 import flask_socketio
