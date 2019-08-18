@@ -16,6 +16,7 @@
 - [API Integration Edit Component](react-js/api/ApiEdit.js)
 - [API Integration Delete Component](react-js/api/ApiTodo.js)
 - [Basic API Integration with Fetch and Axios](react-js/fetch-axios.js)
+- [Create Custom Modal ](react-js/modal/Modal.js)
 - [Manual Delay](react-js/delay.js) 
 - [React Web Camera Streaming](react-js/webcam.js) 
 - [Exportable Date Time](react-js/dateTime.js) 
