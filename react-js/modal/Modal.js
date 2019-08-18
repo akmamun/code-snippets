@@ -1,8 +1,8 @@
 import React from 'react';
 import "./Modal.css"
 
-const Modal = ({ children, customClass, show, closeModal }) => (
-    <div className={`modal ${customClass}`} style={{ display: show ? 'block' : 'none'}}>
+const Modal = ({ children, className, show, closeModal }) => (
+    <div className={`modal ${className}`} style={{ display: show ? 'block' : 'none'}}>
         <div className="overlay" onClick={closeModal}/>
         <div className="modal-content">
             {children}
@@ -14,14 +14,12 @@ const Modal = ({ children, customClass, show, closeModal }) => (
 );
 export default Modal;
 
-
 // Usecase
 /*
 class Test extends Component {
     state = {
         showModal: false
     };
-
     toggleModal = () => {
         this.setState({
             showModal: !this.state.showModal
@@ -37,9 +35,8 @@ class Test extends Component {
                 <Modal
                     show={this.state.showModal}
                     closeModal={this.toggleModal}>
-                    this ok data
+                    <h4> here is modal data </h4> 
                 </Modal>
-
             </div>
         );
     }
