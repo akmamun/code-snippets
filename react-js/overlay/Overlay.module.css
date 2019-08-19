@@ -1,0 +1,35 @@
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+.content{
+    margin-top: 100px;
+}
+
+.closeButton {
+    position: fixed;
+    height: 70px;
+    width: 70px;
+    right: 35px;
+    top: 25px;
+    background-color: #fff;
+    border-radius: 100px;
+    transition: opacity .7s ease-out;
+    -moz-transition: opacity .7s ease-out;
+    -webkit-transition: opacity .7s ease-out;
+    -o-transition: opacity .7s ease-out;
+    opacity: 1;
+}
+
+.closeButton:hover {
+    opacity: 0.4;
+}
