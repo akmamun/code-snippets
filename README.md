@@ -23,6 +23,7 @@
 - [React Web Camera Streaming](react-js/webcam.js) 
 - [Exportable Date Time](react-js/dateTime.js) 
 - [Pagination and Usage](react-js/Pagination.js) 
+- [Search Component](react-js/Search.js)
 - [Navbar Component with State Handle](react-js/Navbar.js)
 - [SideNavigation Component with State Handle](react-js/SideNavigation)
 - [Team Component](react-js/team/Team.js)
