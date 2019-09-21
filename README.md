@@ -35,6 +35,7 @@
 - [Flask Socket Connection](python/flask_socket.py)
 - [Flask Socket Connection with Pubsub to listen subscription messages](python/flask_pubsub.py)
 - [Dockerize Flask App](python/Dockerfile)
+- [Python Open-CV Video Recording](python/video_record.py)
 - [Find Router Connected Device Ip List](python/router_ip_address.py)
 - [Google Cloud Pub/Sub Publishing/subscription messages and subscriptions list](python/pubsub.py)
 - [Cython Compile File Generator](python/compile.py)
