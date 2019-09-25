@@ -1,7 +1,5 @@
 ## JavaScript, React JS, Python, Flask, Php (Laravel) Code Snippets
 
-## Hacks
-- [Frontend](react-js/Frontend.md) 
 ## JavaScript 
 - [JavaScript Form Validation](js/form-validation.js) 
 - [Select Single Checkbox](js/single-checkbox-selection.js) 
@@ -31,6 +29,9 @@
 - [React Select Option](react-js/SelectOption.js)
 - [Not Found Page](react-js/NotFound.js) 
 
+## Hacks
+- [Frontend](react-js/Frontend.md) 
+
 ## Python 
 - [Flask Socket Connection](python/flask_socket.py)
 - [Flask Socket Connection with Pubsub to listen subscription messages](python/flask_pubsub.py)
@@ -56,10 +57,12 @@
 - [Multiple Image Upload](laravel/multiple-image-upload.php) 
 - [Partial Route](laravel/partial-route.php) 
 - [Create a Host](../../../create-a-host)
+
 ## Go Lang
 - [Set Go Path](go/go-path-set.go)
+
 ## System
-- [Supervisor for Frontend React](system/supervisor/frontend.conf)
+- [Supervisor Installation and Procedure](system/supervisor/frontend.MD)
 
 ## Other
 - [Install Protobuf 3 on Ubuntu](https://gist.github.com/mrxmamun/c3afc8e9318135d5f79177ff528655a4)
