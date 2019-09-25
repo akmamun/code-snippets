@@ -1,13 +1,13 @@
 # Install Supervisor and Manage Process
 
 ## Installation
-``sh
+```sh
 sudo apt-get install supervisor
-``
+```
 ## Goto /etc/supervisor/conf.d folder, supervisor create this folder in your system
-``sh
+```sh
 cd /etc/supervisor/conf.d
-``
+```
 ## Make a file `touch filename.conf`,  make sure file name end with `.conf`
 - You may need permission to create a file or use every time prefix `sudo`
 - `sudo touch filename.conf`
