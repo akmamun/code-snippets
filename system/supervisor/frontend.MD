@@ -24,7 +24,7 @@ autorestart=true
 stderr_logfile=/var/log/test.err.log
 stdout_logfile=/var/log/test.out.log
 ```
-## Add Supervisor in Pyhton App [frontend](backend.conf)
+## Add Supervisor in Pyhton App [backend](backend.conf)
 ```
 [program:backend]
 directory="project directory"
