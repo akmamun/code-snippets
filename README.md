@@ -4,9 +4,9 @@
 - [JavaScript Form Validation](js/form-validation.js) 
 - [Select Single Checkbox](js/single-checkbox-selection.js) 
 - [Datetime (Unix , RealTime and Formatted Datetime)](js/datetime.js) 
+
 ## React JS 
 - [React ENV Create](react-js/env.md)
-- [Dockerize React App](docker/react/Dockerfile)
 - [React Socket Connection](react-js/Socket.js)
 - [Exportable API Endpoint](react-js/api/ApiHelper.js)
 - [Example API Helper Routes ](react-js/api/ExampleApi.js)
@@ -36,7 +36,6 @@
 ## Python 
 - [Flask Socket Connection](python/flask_socket.py)
 - [Flask Socket Connection with Pubsub to listen subscription messages](python/flask_pubsub.py)
-- [Dockerize Flask App](docker/python/Dockerfile)
 - [Python Open-CV Video Recording](python/video_record.py)
 - [Find Router Connected Device Ip List](python/router_ip_address.py)
 - [Google Cloud Pub/Sub Publishing/subscription messages and subscriptions list](python/pubsub.py)
@@ -64,6 +63,11 @@
 
 ## System
 - [Supervisor Installation and Procedure](system/supervisor/README.MD)
+
+## Dockerize 
+- [Dockerize Instruction](docker/README.md)
+- [Dockerize React App](docker/react/Dockerfile)
+- [Dockerize Flask App](docker/python/Dockerfile)
 
 ## Other
 - [Install Protobuf 3 on Ubuntu](https://gist.github.com/mrxmamun/c3afc8e9318135d5f79177ff528655a4)
